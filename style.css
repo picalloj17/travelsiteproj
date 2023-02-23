@@ -5,7 +5,7 @@ html{
   }
   
   body {
-    background-color: white;
+    background-color: rgb(177, 179, 150);
   }
   
   
@@ -13,14 +13,17 @@ html{
   
   #banner {
     background-size: cover;
-    background-image: url('camel-background.png');
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/281/415/non_2x/camel-and-people-silhouete-background-islamic-illustration-wallpaper-eid-al-adha-holiday-beautiful-sunlight-landscape-palm-tree-sand-desert-graphic-vector.jpg');
     background-position: center;
-    height: 46rem;
+    height: 24rem;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    opacity: 0.85;
+  
+    
     
   }
   
@@ -28,7 +31,7 @@ html{
     
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 3.75rem;
   }
   
@@ -65,7 +68,7 @@ html{
   
   .post h3 {
     font-size: 1.125rem;
-    color: #999999;
+    color: #757575;
   }
   
   .post .opening-line {
@@ -101,17 +104,19 @@ html{
   
   .image-container img{
     max-width: 100%;
-    height: auto;
-    display: block;
+    height:auto;
+    min-height: px;
+    display: inline-block;
+    justify-content: space-between;
   }
   
   /* Footer */
   
   footer {
     padding: 4rem 0;
-    border-top: 1px solid #999999;
+    border-top: 1px solid #00000057;
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
-    color: #999999;
+    color: #1414144f;
     text-align: center;
   }
